@@ -1,6 +1,6 @@
 import { DataTypes } from 'sequelize';
 import bcryptjs from 'bcryptjs';
-import { sequelize } from '../config/db.js';
+import { sequelize } from '../middleware/config/db.js';
 
 const User = sequelize.define('User', {
   id: {
