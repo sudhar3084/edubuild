@@ -1,0 +1,11 @@
+﻿                 List of tables
+ Schema |        Name        | Type  |  Owner   
+--------+--------------------+-------+----------
+ public | Feedback           | table | postgres
+ public | Projects           | table | postgres
+ public | Users              | table | postgres
+ public | edubuild_feedbacks | table | postgres
+ public | edubuild_projects  | table | postgres
+ public | edubuild_users     | table | postgres
+(6 rows)
+
