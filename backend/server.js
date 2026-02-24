@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { connectDB } from './config/db.js';
+import { connectDB } from './middleware/config/db.js'
 
 // Route Imports
 import authRoutes from './routes/authRoutes.js';
